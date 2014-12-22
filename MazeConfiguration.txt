@@ -1,0 +1,207 @@
+		// Original maze A
+if( mapType==21 ) {
+OOOOOOOOOOOO
+OT XXX    DO
+O XX  XXX  O
+O    X  X XO
+OXXX  X X  O
+O          O
+O XXXX XX  O
+O    X X X O
+O  X X X GXO
+O XX     XXO
+O     XX   O
+OOOOOOOOOOOO";
+
+		
+		// Original maze B
+		if( mapType==22 ) {
+OOOOOOOOOOOO
+OTXXX     XO
+O X   XXX XO
+O X X    GXO
+O   XXXXX XO
+OXX        O
+OXX X XX X O
+OXX X X  X O
+OXX X X XX O
+OXX     XX O
+OXXXDXX    O
+OOOOOOOOOOOO";
+
+		
+		// Original maze C
+		if( mapType==23 ) {
+OOOOOOOOOOOO
+OT    XX  DO
+O X   X X  O
+O    X    XO
+O         XO
+OX X      XO
+OX  X  X X O
+O   X      O
+O     XGX  O
+O        X O
+O X        O
+OOOOOOOOOOOO";
+
+		
+		// Original Empty
+		if( mapType==24 ) {
+OOOOOOOOOOOO
+OT         O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+OD         O
+OOOOOOOOOOOO";
+
+		
+		//mapType = 6;
+		// maze A
+		if( mapType==1 ) {
+OOOOOOOOOOOO
+OT  XX    DO
+O X   XXX  O
+O    X  X XO
+OXXX  X X  O
+O          O
+O XXXX XX  O
+O    X X X O
+O  X X X GXO
+O XX     XXO
+O     X    O
+OOOOOOOOOOOO";
+
+		
+		// maze A with security
+		if( mapType==2 ) {
+OOOOOOOOOOOO
+OT  XX    GO
+O X   XXX  O
+O    X  X XO
+OXXX  X X  O
+O          O
+OXXX X XX  O
+O    X X X O
+O  X X X DXO
+O XXS    XXO
+O     X    O
+OOOOOOOOOOOO";
+
+		
+		//maze B
+		if( mapType==3 ) {
+OOOOOOOOOOOO
+OTXXX     XO
+O X   XXX XO
+O X X    DXO
+O   XXXXX XO
+OXX        O
+OXX X XX X O
+OXX X X  X O
+OXX X X XX O
+OXX     XX O
+OXXXGXX    O
+OOOOOOOOOOOO";
+
+		
+		//maze B with security
+		if( mapType==4 ) {
+OOOOOOOOOOOO
+OTXXX    SXO
+O X   XXX XO
+O X X    GXO
+O   XXXXX XO
+OXX        O
+OXX X XX X O
+OXX X X  X O
+OXX X X XX O
+OXX     XX O
+OXXXDXX    O
+OOOOOOOOOOOO";
+
+		
+		//maze B with security
+		if( mapType==99 ) {
+OOOOOOOOOOOO
+OTXXX     XO
+O X   XXX XO
+O X X    GXO
+O   XXXXX XO
+OXX        O
+OXX X XX X O
+OXX X X  X O
+OXX X X XX O
+OXX     XX O
+OXXXDXX    O
+OOOOOOOOOOOO";
+
+		
+		//maze B
+		if( mapType==9 ) {
+OOOOOOOOOOOO
+OTXXX     XO
+O X   XXX XO
+O X X    DXO
+O   XXXXX XO
+OXX        O
+OXX X XX X O
+OXX X X  XSO
+OXX X X XX O
+OXX     XX O
+OXXXGXX    O
+OOOOOOOOOOOO";
+
+		
+		// maze C
+		if( mapType==5 ) {
+OOOOOOOOOOOO
+OT    XX  DO
+O X   X X  O
+O    X    XO
+O         XO
+OX X      XO
+OX  X  X X O
+O   X      O
+O     XGX  O
+O        X O
+O X        O
+OOOOOOOOOOOO";
+
+		
+		// maze C with security
+		if( mapType==6 ) {
+OOOOOOOOOOOO
+OT    XX  DO
+O X   X X  O
+O    X    XO
+O         XO
+OX X      XO
+OX  X  X X O
+O   X      O
+O     XGXS O
+O        X O
+O X        O
+OOOOOOOOOOOO";
+
+		
+		// empty
+		if( mapType==7 ) {
+OOOOOOOOOOOO
+OT         O
+O          O
+O          O
+O          O
+O         DO
+O          O
+O         GO
+O          O
+O          O
+O         SO
+OOOOOOOOOOOO";
